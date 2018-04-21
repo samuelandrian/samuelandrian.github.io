@@ -26,8 +26,7 @@ set_include_path(get_include_path().PATH_SEPARATOR.implode(PATH_SEPARATOR, $modu
 spl_autoload_register('spl_autoload',false);//supaya dapat memanggil class lain di folder yang berbeda tanpa menggunakan code include('file.php'); karna include path nya telah diset oleh set_include_path kedalam sebuar register
 
 new Application;
-?>
-<h1>Halo</h1>
+
 
 
 
