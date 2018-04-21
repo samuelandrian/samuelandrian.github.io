@@ -3,7 +3,7 @@
 
 
 //kumpulan kode dibawah ini untuk :
-define('ROOT',dirname( __DIR__ ) . DIRECTORY_SEPARATOR);//ROOT di definisikan memiliki value PathGrandparentFolder/   kalau echo dirname(__FILE__); untuk memprint path parentfolder
+define('ROOT',dirname( __FILE__ ) . DIRECTORY_SEPARATOR);//ROOT di definisikan memiliki value PathGrandparentFolder/   kalau echo dirname(__FILE__); untuk memprint path parentfolder
 define('APP', ROOT.'app'.DIRECTORY_SEPARATOR);//APP didefinisikan memiliki value ROOT/app/
 define('VIEW',ROOT.'app'.DIRECTORY_SEPARATOR.'view'.DIRECTORY_SEPARATOR);
 define('MODEL',ROOT.'app'.DIRECTORY_SEPARATOR.'model'.DIRECTORY_SEPARATOR);
